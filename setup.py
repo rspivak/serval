@@ -1,5 +1,13 @@
 from setuptools import setup, find_packages
 
+classifiers = """\
+Intended Audience :: Developers
+License :: OSI Approved :: MIT License
+Programming Language :: Python
+Topic :: Software Development :: Interpreters
+Operating System :: Unix
+"""
+
 setup(
     name='serval',
     version='0.1',
@@ -15,5 +23,6 @@ setup(
     entry_points="""\
     [console_scripts]
     serval = serval.interpreter:main
-    """
+    """,
+    classifiers = filter(None, classifiers.split('\n')),
     )
