@@ -29,8 +29,10 @@ import readline
 from serval.lexer import Lexer
 from serval.parser import Parser
 from serval.model import Symbol, Boolean, EmptyList
-from serval.scope import (setup_environment, define_variable,
-                          lookup_variable_value, extend_environment)
+from serval.scope import (
+    setup_environment, define_variable,
+    lookup_variable_value, extend_environment
+    )
 from serval.expression import (
     selfeval, quote, definition, variable,
     assignment, conditional, lambdaexpr,
