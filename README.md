@@ -21,8 +21,8 @@ The goal of the project
    Scheme interpreter.
 
 3. Not a goal per se, but I wanted the **Serval** to be able
-   to run all examples from "The Little Schemer" book (that was
-   my test target). The project has a test module test_the_little_schemer.py
+   to run all examples from *"The Little Schemer"* book (that was
+   my test target). The project has a test module *test_the_little_schemer.py*
    which runs simple meta-circular evaluator from Ch.10 of the book.
 
 This is a current high-level overview of the interpreter:
@@ -52,16 +52,16 @@ Session examples (REPL)
 
 1. Defining simple function
 
-    serval> (define add1 (lambda (x) (+ x 1)))
-    ok
-    serval> (add1 9)
-    10
+        serval> (define add1 (lambda (x) (+ x 1)))
+        ok
+        serval> (add1 9)
+        10
 
 2. Loading representation from a file
 
-    serval> (load "/home/alienoid/scheme/the_little_schemer/ch10.ss")
-    serval> (value '((lambda (x) (cons x x)) 5))
-    (5 . 5)
+        serval> (load "/home/alienoid/scheme/the_little_schemer/ch10.ss")
+        serval> (value '((lambda (x) (cons x x)) 5))
+        (5 . 5)
 
 
 Installation
@@ -69,13 +69,13 @@ Installation
 
 1. Using `buildout` (useful for local development and testing)
 
-    $ cd serval
-    $ python bootstrap.py
-    $ bin/buildout
+        $ cd serval
+        $ python bootstrap.py
+        $ bin/buildout
 
-    Run the interpreter's REPL
+        Run the interpreter's REPL
 
-    $ bin/serval
+        $ bin/serval
 
 2. Using `easy_install` or `pip`
 
