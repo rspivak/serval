@@ -77,9 +77,11 @@ Installation
 
         $ bin/serval
 
-2. Using `easy_install` or `pip`
+2. Using `pip` or `easy_install`
 
-   XXX
+        $ pip install serval
+
+        $ easy_install serval
 
 
 Technical details
