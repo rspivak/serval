@@ -77,11 +77,15 @@ Installation
 
         $ bin/serval
 
-2. Using `pip` or `easy_install`
+2. Using `pip` or `easy_install` (no need for sudo if using `virtualenv`)
 
-        $ pip install serval
+        $ sudo pip install serval
 
-        $ easy_install serval
+        $ sudo easy_install serval
+
+        Run the interpreter's REPL
+
+        $ serval
 
 
 Technical details
