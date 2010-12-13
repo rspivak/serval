@@ -81,7 +81,7 @@ Installation
 
         $ sudo pip install serval
 
-        $ sudo easy_install serval
+        (or run alternatively easy_install: `$ sudo easy_install serval`)
 
         Run the interpreter's REPL
 
