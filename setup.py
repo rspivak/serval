@@ -44,7 +44,7 @@ setup(
     author_email='ruslan.spivak@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['setuptools'],
+    install_requires=['distribute'],
     zip_safe=False,
     entry_points="""\
     [console_scripts]
